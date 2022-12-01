@@ -1,9 +1,11 @@
 [package]
 name = "max_n"
+description = "A utility function on iterators to find the maximum or minimum n values"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+authors = ["Jonathan Brouwer <jonathantbrouwer@gmail.com>"]
+repository = "https://github.com/JonathanBrouwer/max_n"
 
 [profile.test]
 opt-level = 3
